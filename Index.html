@@ -1,32 +1,51 @@
 <html>
     <head>
         <style>
-        .contenedor-titulo{
-            display: flex;
-            align-content: center;
-            justify-content: center;
-            background-color:burlywood
+            .contenedor-titulo{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color:burlywood
             }
             .titulo{
-                color:cornsilk
+                color:cornsilk;
+            }
+            .contenedor-imagenes{
+                display: flex;
+                flex:5;
+                width:90%;
+                flex-wrap: wrap;
+                background-color:;
+            }
+            .imagen{
+                max-width: 350px;
+                margin: 5px;
+            }
 
-
-
+            .imagen1{
+                display:flex;
+                flex: 25
             }
         </style>
     </head>
     <body>
 
-        <div>
+        <div class="contenedor-titulo">
             <h1 class="contenedor-titulo"> DIPLOMADO FULL STACK            </h1>
         </div>
-        <div>
+        <div class="menu">
             <p>inicio</p>
+            <a href="https://www.facebook.com">facebook</a>
             <p>temas</p>
             <p>profesores</p>
             <p>estudiantes</p>
-            <div>
-                <img src="http://www.diarioextra.com/files/Dnews/images/detail/395727_gameofthrones.jpeg"       </div>
-        <div><p></p></div>
+        </div>
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/QVEjv9Xi7FI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="contenedor-imagenes">
+            <img class="imagen imagen1" src="http://www.diarioextra.com/files/Dnews/images/detail/395727_gameofthrones.jpeg"></img>
+            <img class="imagen imagen2" src="http://www.diarioextra.com/files/Dnews/images/detail/395727_gameofthrones.jpeg"></img>
+            <img class="imagen imagen3" src="http://www.diarioextra.com/files/Dnews/images/detail/395727_gameofthrones.jpeg"></img>
+            <img class="imagen imagen4" src="http://www.diarioextra.com/files/Dnews/images/detail/395727_gameofthrones.jpeg"></img>
+        <div>
     </body>
 
